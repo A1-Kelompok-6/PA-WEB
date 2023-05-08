@@ -54,3 +54,5 @@ function randomFilename($length, $directory = '', $extension = '') {
 if (!$mysqli) {
   die("Connection Failed" . mysqli_connect_error());
 }
+
+session_start();
