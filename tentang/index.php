@@ -30,7 +30,7 @@ $owner = query("SELECT description, image FROM user_detail WHERE id='1'")
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
           <h1 class="title" style="margin-bottom: 0;">About</h1>
         </div>
-        <!-- <img class="" style="width: 50%;" src="<?= $user['image'] ?>" alt="<?= $animal['name'] ?>"> -->
+        <img class="" style="width: 50%;" src="<?= $owner['image'] ?? '/zoo-1.png' ?>" alt="Gambar">
         <?= $owner['description'] ?>
       </div>
     </section>
