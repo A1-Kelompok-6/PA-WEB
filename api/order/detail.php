@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   $id = esc_string($_GET['id']);
 
   try {
-    $orders = $mysqli->query("SELECT ot.id, ot.amount, ot.total, t.name, t.price FROM order_ticket ot INNER JOIN ticket t ON ot.ticket_id=t.id WHERE ot.order_id ='$id';");
+    $orders = $mysqli->query("SELECT ot.id, ot.amount, ot.total, t.name, t.price FROM order_ticket ot INNER JOIN ticket t ON ot.ticket_id=t.id WHERE ot.order_id ='$id'");
     $data = array();
 
     while ($order = mysqli_fetch_array($orders)) {
