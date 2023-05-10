@@ -70,7 +70,7 @@ Status pada data akan berubah sesuai dengan yang dilakukan admin.
 ![gambar error](./read/12.png)
 Pada menu admin akan ditampilkan form yang dapat diisi dengan data diri atau profile dari admin dan jika sudah selesai admin dapat klik submit yang berada dibawah agar data tersebut tersimpan pada database.
 
-#####Untuk dapat keluar dari akun admin dapat klik tombol logout yang berada pada kanan atas maka akan langsung otomatis keluar darin akun.
+#Untuk dapat keluar dari akun admin dapat klik tombol logout yang berada pada kanan atas maka akan langsung otomatis keluar darin akun.
 
 ## B. OWNER
 **1. Login Owner**
@@ -133,7 +133,7 @@ Status pada data akan berubah sesuai dengan yang dilakukan owner.
 ![gambar error](./read/25.png)
 Pada menu owner akan ditampilkan form yang dapat diisi dengan data diri atau profile dari owner dan jika sudah selesai owner dapat klik submit yang berada dibawah agar data tersebut tersimpan pada database dan ditampilkan pada menu tentang.
 
-#####Untuk dapat keluar dari akun owner dapat klik tombol logout yang berada pada kanan atas maka akan langsung otomatis keluar darin akun.
+#Untuk dapat keluar dari akun owner dapat klik tombol logout yang berada pada kanan atas maka akan langsung otomatis keluar darin akun.
 
 ## C. CUSTOMER
 **1. Daftar Customer**
@@ -198,4 +198,4 @@ Terdapat fitur mengurutkan data pesanan dengan dec ataupun asc berdasarkan no, n
 ![gambar error](./read/41.png)
 Pada menu nama customer ini akan menampilkan form data diri atau profile dari customer yang nantinya akan disimpan kedalam database website. Jika customer sudah mengisi sesuai dengan kolom form yang ada maka customer dapat klik submit agar data tersebut berhasil tersimpan.
 
-#####Untuk dapat keluar dari akun customer dapat klik tombol logout yang berada pada kanan atas maka akan langsung otomatis keluar darin akun.
+#Untuk dapat keluar dari akun customer dapat klik tombol logout yang berada pada kanan atas maka akan langsung otomatis keluar darin akun.
