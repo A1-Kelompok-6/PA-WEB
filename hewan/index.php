@@ -188,7 +188,7 @@ GROUP BY a.name");
     </section>
   </main>
   <footer>
-    Copyright © 2023 | Rizky Maulana Alfauzan
+    Copyright © 2023 | All Rights Reserved
   </footer>
 
   <script src="https://kit.fontawesome.com/2f975d5468.js" crossorigin="anonymous"></script>

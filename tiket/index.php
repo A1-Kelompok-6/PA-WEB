@@ -179,12 +179,12 @@ $tickets = $mysqli->query("SELECT * FROM ticket $searchQuery");
   </style>
 </head>
 
-<body>
+<body style="min-height: 100vh;">
   <header>
     <?php include("../components/Nav.php") ?>
   </header>
-  <main class="container">
-    <section class="section">
+  <main class="container" style="min-height: 100vh;">
+    <section class="section" style="min-height: 100vh;">
       <h1 class="title">Data Tiket</h1>
       <?php if (empty($_SESSION)) : ?>
         <div class="notification is-primary is-light">
@@ -280,7 +280,7 @@ $tickets = $mysqli->query("SELECT * FROM ticket $searchQuery");
     </div>
   </div>
   <footer>
-    Copyright © 2023 | Rizky Maulana Alfauzan
+    Copyright © 2023 | All Rights Reserved
   </footer>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="/assets/js/cash.min.js"></script>

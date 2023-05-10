@@ -36,8 +36,8 @@ $user = query("SELECT u.id, u.name, u.email, u.role, ud.address, ud.image, ud.ph
   <header>
     <?php include("../components/Nav.php") ?>
   </header>
-  <main class="container ">
-    <section class="section">
+  <main class="container " style="min-height: 100vh;">
+    <section class="section" style="min-height: 100vh;">
       <h1 class="title">Profile</h1>
       <form name="form-profile" data-id="<?= $user['id'] ?>" id="form-profile" action="/profil/" method="POST">
         <div class="field" aria-label="name">
@@ -85,7 +85,7 @@ $user = query("SELECT u.id, u.name, u.email, u.role, ud.address, ud.image, ud.ph
     </section>
   </main>
   <footer>
-    Copyright © 2023 | Rizky Maulana Alfauzan
+    Copyright © 2023 | All Rights Reserved
   </footer>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>

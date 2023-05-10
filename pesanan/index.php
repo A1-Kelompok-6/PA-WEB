@@ -46,12 +46,12 @@ FROM `order`
   <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 
-<body>
+<body style="min-height: 100vh;">
   <header>
     <?php include("../components/Nav.php") ?>
   </header>
-  <main class="container">
-    <section class="section">
+  <main class="container" style="min-height: 100vh;">
+    <section class="section" style="min-height: 100vh;">
       <div class="columns" style="margin-bottom: 2.5rem;">
         <h1 style="margin-bottom: 0; padding-top: 0;" class="title column">Data Pesanan</h1>
         <form method="GET" class="field column columns">
@@ -143,7 +143,7 @@ FROM `order`
     </section>
   </main>
   <footer>
-    Copyright © 2023 | Rizky Maulana Alfauzan
+    Copyright © 2023 | All Rights Reserved
   </footer>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="/assets/js/cash.min.js"></script>

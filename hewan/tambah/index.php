@@ -38,7 +38,7 @@ if (isset($_GET['id'])) {
   <header>
     <?php include("../../components/Nav.php") ?>
   </header>
-  <main class="container ">
+  <main class="container " style="min-height: 100vh;">
     <section class="section">
       <h1 class="title"><?= $isUpdate ? 'Update' : 'Tambah' ?> Data Hewan</h1>
       <form name="form-animal" id="form-animal" action="/hewan/" method="POST" enctype="multipart/form-data">
@@ -72,7 +72,7 @@ if (isset($_GET['id'])) {
     </section>
   </main>
   <footer>
-    Copyright © 2023 | Rizky Maulana Alfauzan
+    Copyright © 2023 | All Rights Reserved
   </footer>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>

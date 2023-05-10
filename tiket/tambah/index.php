@@ -40,12 +40,12 @@ if (isset($_GET['id'])) {
   <title><?= $isUpdate ? 'Update' : 'Tambah' ?> Tiket</title>
 </head>
 
-<body>
+<body style="min-height: 100vh;">
   <header>
     <?php include("../../components/Nav.php") ?>
   </header>
-  <main class="container ">
-    <section class="section">
+  <main class="container " style="min-height: 100vh;">
+    <section class="section" style="min-height: 100vh;">
       <h1 class="title"><?= $isUpdate ? 'Update' : 'Tambah' ?> Data Tiket</h1>
       <form name="form-ticket" id="form-ticket" action="/tiket/" method="<?= $isUpdate ? 'PUT' : 'POST' ?>">
         <div class="field" aria-label="name">
@@ -72,7 +72,7 @@ if (isset($_GET['id'])) {
     </section>
   </main>
   <footer>
-    Copyright © 2023 | Rizky Maulana Alfauzan
+    Copyright © 2023 | All Rights Reserved
   </footer>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
