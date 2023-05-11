@@ -44,7 +44,7 @@ if (!empty($_POST)) {
           <input type="radio" name="slide" id="login" checked>
           <input type="radio" name="slide" id="signup">
           <label for="login" class="slide login">Login</label>
-          <label for="signup" class="slide signup">Daftar</label>
+          <label for="signup" class="slide signup">Registrasi</label>
           <div class="slider-tab"></div>
         </div>
         <!-- form login -->
