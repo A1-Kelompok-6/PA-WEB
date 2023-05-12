@@ -7,7 +7,6 @@ if (!isset($_SESSION['id'])) {
 }
 $id = $_SESSION['id'];
 $user = query("SELECT u.id, u.name, u.email, u.role, ud.address, ud.image, ud.phone, ud.description FROM user u INNER JOIN user_detail ud ON u.id=ud.id WHERE ud.id='$id'");
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

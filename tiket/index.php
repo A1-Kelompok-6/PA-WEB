@@ -180,9 +180,12 @@ $tickets = $mysqli->query("SELECT * FROM ticket $searchQuery");
 </head>
 
 <body style="min-height: 100vh;">
+<body style="min-height: 100vh;">
   <header>
     <?php include("../components/Nav.php") ?>
   </header>
+  <main class="container"  style="min-height: 100vh;">
+    <section class="section"  style="min-height: 100vh;">
   <main class="container" style="min-height: 100vh;">
     <section class="section" style="min-height: 100vh;">
       <h1 class="title">Data Tiket</h1>
@@ -281,6 +284,7 @@ $tickets = $mysqli->query("SELECT * FROM ticket $searchQuery");
   </div>
   <footer>
     Copyright © 2023 | All Rights Reserved
+    Copyright © 2023 | All Rights Reserved
   </footer>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="/assets/js/cash.min.js"></script>
@@ -292,7 +296,7 @@ $tickets = $mysqli->query("SELECT * FROM ticket $searchQuery");
         const name = $(this).data('name');
 
         Swal.fire({
-          title: `Yakin ingin Mengahapus Tiket '${name}?'`,
+          title: `Yakin ingin Menghapus Tiket '${name}?'`,
           text: 'Tiket yang sudah dihapus tidak dapat dikembalikan',
           icon: 'warning',
           confirmButtonText: 'Ya, Hapus',
