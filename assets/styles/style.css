@@ -64,7 +64,7 @@ header {
 
 nav {
   background-color: var(--main-color-700);
-  border-top: 5px solid #132c33;
+  border-top: 5px solid #132f33;
   position: sticky;
   top: 0;
   width: 100%;
@@ -231,7 +231,7 @@ footer {
   clear: both;
   padding: 5px;
   color: white;
-  background-color: #115e59;
+  background-color: #00d1b2;
   text-align: center;
   display: flex;
   align-items: center;
